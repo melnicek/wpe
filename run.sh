@@ -5,6 +5,7 @@ if [ ! -f "PowerUp.ps1" ]; then
   wget https://raw.githubusercontent.com/rasta-mouse/Sherlock/master/Sherlock.ps1
   wget https://raw.githubusercontent.com/411Hall/JAWS/master/jaws-enum.ps1
   wget https://raw.githubusercontent.com/AonCyberLabs/Windows-Exploit-Suggester/master/windows-exploit-suggester.py
+  cp ./bin/* .
 fi
 
 htbip=$(ip addr | grep tun0 | grep inet | grep 10. | tr -s " " | cut -d " " -f 3 | cut -d "/" -f 1)
