@@ -16,6 +16,28 @@ if [ ! -f "windows-exploit-suggester.py" ]; then
   wget https://raw.githubusercontent.com/AonCyberLabs/Windows-Exploit-Suggester/master/windows-exploit-suggester.py
 fi
 
+if [ ! -f "Seatbelt.exe" ]; then
+  wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/Seatbelt.exe
+fi
+
+if [ ! -f "SharpUp.exe" ]; then
+  https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/SharpUp.exe
+fi
+
+if [ ! -f "Accesschk.exe" ]; then
+  https://xor.cat/assets/other/Accesschk.zip
+  unzip Accesschk.zip
+fi
+
+if [ ! -f "winPEASany.exe" ]; then
+  https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/raw/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases/winPEASany.exe
+fi
+
+if [ ! -f "Watson.exe" ]; then
+  https://github.com/4ndygu/precompiled-watsons/raw/master/Watson.exe
+  fi
+
+
 ip=$(ip addr | grep tun0 | grep inet | grep 10. | tr -s " " | cut -d " " -f 3 | cut -d "/" -f 1)
 
 echo ""
