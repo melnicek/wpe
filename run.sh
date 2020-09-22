@@ -46,20 +46,20 @@ if [ ! -f "Seatbelt.exe" ]; then
 fi
 
 if [ ! -f "SharpUp.exe" ]; then
-  https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/SharpUp.exe
+  wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/SharpUp.exe
 fi
 
 if [ ! -f "Accesschk.exe" ]; then
-  https://xor.cat/assets/other/Accesschk.zip
+  wget https://xor.cat/assets/other/Accesschk.zip
   unzip Accesschk.zip
 fi
 
 if [ ! -f "winPEASany.exe" ]; then
-  https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/raw/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases/winPEASany.exe
+  wget https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/raw/master/winPEAS/winPEASexe/winPEAS/bin/Obfuscated%20Releases/winPEASany.exe
 fi
 
 if [ ! -f "Watson.exe" ]; then
-  https://github.com/4ndygu/precompiled-watsons/raw/master/Watson.exe
+  wget https://github.com/4ndygu/precompiled-watsons/raw/master/Watson.exe
 fi
 
 echo ""
