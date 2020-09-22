@@ -49,7 +49,7 @@ if [ ! -f "SharpUp.exe" ]; then
   wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/SharpUp.exe
 fi
 
-if [ ! -f "Accesschk.zip" ]; then
+if [ ! -f "accesschk.exe" ]; then
   wget https://xor.cat/assets/other/Accesschk.zip
   unzip Accesschk.zip
   rm Eula.txt Accesschk.zip
