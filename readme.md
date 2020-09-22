@@ -14,10 +14,10 @@ chmod +x run.sh
 # Usage
 
 ```
-kali@kali:$ bash run.sh            
-Usage: run.sh <LHOST/INTERFACE> <LPORT>
+kali@kali:~/wpe$ ./run.sh            
+Usage: ./run.sh <LHOST/INTERFACE> <LPORT>
 
-Example: run.sh 10.10.14.12 80
-Example: run.sh tun0 8080
-Example: run.sh tun0 random
+Example: ./run.sh 10.10.14.12 80
+Example: ./run.sh tun0 8080
+Example: ./run.sh tun0 random
 ```
