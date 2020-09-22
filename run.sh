@@ -52,6 +52,7 @@ fi
 if [ ! -f "Accesschk.zip" ]; then
   wget https://xor.cat/assets/other/Accesschk.zip
   unzip Accesschk.zip
+  rm Eula.txt Accesschk.zip
 fi
 
 if [ ! -f "winPEASany.exe" ]; then
